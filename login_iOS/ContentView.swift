@@ -9,13 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
-    }
+	@State var didLogin = false
+	@State var name:String = ""
+	@State var password:String = ""
+	var body: some View {
+		VStack {
+			TextField("name", text: $name)
+			SecureField("password", text: $password)
+			Button(action: login){ Text("Login")}
+		}
+	}
+	
+	func login() {
+		
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+	static var previews: some View {
+		ContentView()
+	}
 }
