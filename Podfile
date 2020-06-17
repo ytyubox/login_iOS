@@ -7,4 +7,5 @@ target 'login_iOS' do
 
   # Pods for login_iOS
   pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
 end

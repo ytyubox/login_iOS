@@ -13,16 +13,28 @@ struct ContentView: View {
 	@State var name:String = ""
 	@State var password:String = ""
 	var body: some View {
-		VStack {
+    VStack(spacing: 10) {
 			TextField("name", text: $name)
-			SecureField("password", text: $password)
-			Button(action: login){ Text("Login")}
-		}
+            SecureField("password", text: $password)
+            Button(action: login){ Text("Login")}
+        
+        HStack {
+            Button("Apple",action: didTapApple)
+            Button("Fb",action: didTapFb)
+            Button("Google",action: didTapgoogle)
+        }
+    .padding()
+    }.padding()
+        .textFieldStyle(RoundedBorderTextFieldStyle())
+    
 	}
 	
 	func login() {
 		
 	}
+    func didTapApple() {print(#function) }
+    func didTapFb() {print(#function) }
+    func didTapGoogle() {print(#function) }
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,7 +29,6 @@
 		9A911CF724979DDB006D0129 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A911CFA24979DDC006D0129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A911CFC24979DDC006D0129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A911D0224979F23006D0129 /* Backend */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Backend; sourceTree = "<group>"; };
 		A74A7EEB2499E7E800F45AC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +55,6 @@
 		9A911CE224979DD4006D0129 = {
 			isa = PBXGroup;
 			children = (
-				9A911D0224979F23006D0129 /* Backend */,
 				9A911CED24979DD4006D0129 /* login_iOS */,
 				9A911CEC24979DD4006D0129 /* Products */,
 				AC29A94DED3828EF6EF660A3 /* Pods */,
@@ -101,7 +99,6 @@
 				8C4281FAC6B418EA97C3C41E /* Pods-login_iOS.debug.xcconfig */,
 				6118BFC75ADAEAED848799EA /* Pods-login_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
